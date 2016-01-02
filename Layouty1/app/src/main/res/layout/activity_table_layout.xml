@@ -1,0 +1,122 @@
+<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="pl.com.wwsis.layouty.TableLayout">-->
+
+    <!--<TableRow>-->
+
+        <!--<TextView-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="34dp"-->
+            <!--android:background="@color/yellow"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="34dp"-->
+            <!--android:background="@color/red"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_column="2"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="34dp"-->
+            <!--android:background="@color/dark_blue"/>-->
+    <!--</TableRow>-->
+    <!--<TableRow>-->
+        <!--<TextView-->
+            <!--android:layout_column="1"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="34dp"-->
+            <!--android:background="@color/yellow"/>-->
+
+        <!--<TableLayout android:layout_column="2">-->
+            <!--<TableRow>-->
+                <!--<TextView-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="34dp"-->
+                <!--android:background="@color/red"/>-->
+
+                <!--<TextView-->
+                    <!--android:layout_column="1"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="34dp"-->
+                    <!--android:background="@color/green"/>-->
+            <!--</TableRow>-->
+        <!--</TableLayout>-->
+
+    <!--</TableRow>-->
+
+<!--</TableLayout>-->
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context="pl.com.wwsis.layouty.TableLayout">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Button
+            android:layout_column="0"
+            android:text="Color 1"
+            android:textColor="@color/red"
+            android:id="@+id/but_color1"
+            android:onClick="ustaw_czerwony"
+            />
+
+        <Button
+            android:layout_column="1"
+            android:text="Color 2"
+            android:textColor="@color/yellow"
+            android:id="@+id/but_color2"
+            android:onClick="ustaw_zolty"
+            />
+        <Button
+            android:layout_column="2"
+            android:text="Color 3"
+            android:textColor="@color/dark_blue"
+            android:id="@+id/but_color3"
+            android:onClick="ustaw_niebieski"
+
+            />
+
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_span="3"
+            android:layout_height="50dp"
+            android:background="@color/Bialy"
+            android:id="@+id/fill_color"
+
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:id="@+id/but_clean"
+            android:layout_column="2"
+            android:onClick="wyczysc"
+
+            />
+    </TableRow>
+    <!--<TableRow>-->
+        <!--<TextView-->
+
+            <!--android:layout_height="50dp"/>-->
+    <!--</TableRow>-->
+
+    <!--<TableRow>-->
+        <!--<Button-->
+            <!--android:layout_column="3"-->
+            <!--android:text="Clear"/>-->
+    <!--</TableRow>-->
+
+    </TableLayout>

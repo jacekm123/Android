@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".EkranGlowny"
+
+    android:orientation = "vertical" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Druga strona aplikacji"
+
+        android:id="@+id/textview1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Przejdź do pierwszej strony"
+        android:id = "@+id/button2"
+
+        android:onClick = "ZaladujPierwszaStrone"
+        />
+
+</LinearLayout>
+
+
+
+<!-- From: file:/D:/Studia%20Horyzont/Semestr%20II/Programowanie%20urządzeń%20mobilnych%20w%20języku%20JAVA/Zadanie1lista2/Lista2/app/src/main/res/layout/activity_ekran_drugi.xml -->

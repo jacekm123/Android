@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Studia%20Horyzont/Semestr%20II/Programowanie%20urządzeń%20mobilnych%20w%20języku%20JAVA/Zadanie1lista2/Lista2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-port/values.xml -->
+    <eat-comment/>
+    <bool name="abc_action_bar_embed_tabs">false</bool>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Layouty</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_linear_layout">Przyklad Linear Layout</string>
+
+    <string-array name="lista_aktywnosci">
+        <item>Linear Layout</item>
+        <item>Relative Layout</item>
+        <item>Table Layout</item>
+        <item>Grid Layout</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>Zielony</item>
+        <item>Czerwony</item>
+        <item>Czarny</item>
+        <item>Brazowy</item>
+        <item>Niebieski</item>
+        <item>Zielony</item>
+        <item>Morelowy</item>
+        <item>PiaskiPustyni</item>
+    </string-array>
+
+    <string name="title_activity_relative_layout">Przyklad Relative Layout</string>
+    <string name="title_activity_table_layout">Przyklad Table Layout</string>
+    <string name="title_activity_grid_layout">GridLayout</string>
+</resources>

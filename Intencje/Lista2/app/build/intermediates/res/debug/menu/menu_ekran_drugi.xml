@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ewelciasamsung.lista2.EkranDrugi">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
+<!-- From: file:/D:/Studia%20Horyzont/Semestr%20II/Programowanie%20urządzeń%20mobilnych%20w%20języku%20JAVA/Zadanie1lista2/Lista2/app/src/main/res/menu/menu_ekran_drugi.xml -->
